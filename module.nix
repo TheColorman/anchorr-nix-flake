@@ -1,6 +1,6 @@
 {self, ...}: {
-  flake.modules = {
-    default = self.modules.anchorr;
+  flake.nixosModules = {
+    default = self.nixosModules.anchorr;
     anchorr = {
       config,
       lib,
